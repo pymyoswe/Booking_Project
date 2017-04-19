@@ -1,0 +1,10 @@
+li{
+    list-style: none;
+}
+.container{
+    margin-top: 70px;
+}
+.panel-heading a{
+    color: white;
+    font-size: 12px;
+}

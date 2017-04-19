@@ -1,0 +1,8 @@
+RewriteEngine on
+Options -indexes
+RewriteRule ^login$ /auth/login.php [NC,L]
+RewriteRule ^register$ /auth/register.php [NC,L]
+RewriteRule ^dashboard$ /User/dashboard.php [NC,L]
+RewriteRule ^category$ /Product/category.php [NC,L]
+RewriteRule ^cartDetail$ /Cart/cartDetail.php [NC,L]
+RewriteRule ^order$ /User/order.php [NC,L]
